@@ -21,6 +21,7 @@ This project implements a secure authentication system using access and refresh 
 ### API for Generating Access Token
 
 A separate API endpoint is provided to generate a new access token using the refresh token.
+http://localhost:8000/api/v1/user/get_access_token
 
 ### GraphQL Integration
 
@@ -89,3 +90,13 @@ npm start
 
 - all the queries and mutations are added in the documentation.
 - graphql-gui will be open on http://localhost:8000/gqlserver
+
+## Credentials for Testing
+
+Use the following credentials to login and test different roles:
+
+| Role   | Email           | Password |
+| ------ | --------------- | -------- |
+| Admin  | admin@gmail.com | Test@123 |
+| Member | test1@gmail.com | Test@123 |
+| Member | test2@gmail.com | Test@123 |
