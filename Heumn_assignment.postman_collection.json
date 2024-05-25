@@ -1,0 +1,680 @@
+{
+	"info": {
+		"_postman_id": "52106cc0-079a-41ad-a94f-ed63face09df",
+		"name": "Heumn_assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28253165"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" :\"Test2\",\r\n    \"email\" :\"test2@gmail.com\",\r\n    \"password\" :\"Test@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/v1/user/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"register"
+							]
+						},
+						"description": "This endpoint allows the user to register a new account. Upon successful registration, the API returns a JSON response.\n\n### Response\n\nThe response is in the JSON format and includes the following fields:\n\n- `success` (boolean): Indicates whether the registration was successful.\n    \n- `statusCode` (integer): Represents the status code of the response.\n    \n- `message` (string): Provides any additional message related to the registration process.\n    \n\nHere is a JSON schema representing the response:\n\n``` json\n{\n    \"type\": \"object\",\n    \"properties\": {\n        \"success\": {\n            \"type\": \"boolean\"\n        },\n        \"statusCode\": {\n            \"type\": \"integer\"\n        },\n        \"message\": {\n            \"type\": \"string\"\n        }\n    }\n}\n\n ```"
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" :\"test5@gmail.com\",\r\n    \"password\" :\"Test@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/v1/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"login"
+							]
+						},
+						"description": "The `POST /api/v1/user/login` endpoint is used to authenticate a user and obtain an access token for further API requests.\n\n### Request Body\n\n- The request should include a JSON payload with the following parameters:\n    - `email` (string): The email address of the user.\n        \n    - `password` (string): The password of the user.\n        \n\n### Response\n\nThe response to this request is a JSON object with the following schema:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"success\": {\n      \"type\": \"boolean\"\n    },\n    \"statusCode\": {\n      \"type\": \"integer\"\n    },\n    \"user\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"_id\": {\n          \"type\": \"string\"\n        },\n        \"name\": {\n          \"type\": \"string\"\n        },\n        \"email\": {\n          \"type\": \"string\"\n        },\n        \"role\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"AccessToken\": {\n      \"type\": \"string\"\n    }\n  }\n}\n\n ```"
+					},
+					"response": []
+				},
+				{
+					"name": "Generate Access Token",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/v1/user/get_access_token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"get_access_token"
+							]
+						},
+						"description": "### GET /api/v1/user/get_access_token\n\nThis endpoint is used to retrieve the access token for the user.\n\ntime validity will be for only 5 min\n\n#### Request\n\nNo request body is required for this endpoint.\n\n#### Response\n\nThe response for this request is a JSON object with the following properties:\n\n- `success` (boolean): Indicates whether the request was successful.\n    \n- `statusCode` (integer): The status code of the response.\n    \n- `message` (string): A message related to the response.\n    \n- `AccessToken` (string): The access token for the user.\n    \n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"success\": {\n      \"type\": \"boolean\"\n    },\n    \"statusCode\": {\n      \"type\": \"integer\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    },\n    \"AccessToken\": {\n      \"type\": \"string\"\n    }\n  }\n}\n\n ```"
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/v1/user/logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"logout"
+							]
+						},
+						"description": "The `GET` request is used to log out the user from the application. Upon successful execution, the API returns a JSON response with a status code of 200 and a content type of `application/json`. The response body includes the following fields:\n\n- `success` (boolean): Indicates whether the logout operation was successful.\n    \n- `statusCode` (integer): Represents the status code of the response.\n    \n- `message` (string): Provides any additional message related to the logout operation.\n    \n\nHere is the JSON schema for the response:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"success\": {\n      \"type\": \"boolean\"\n    },\n    \"statusCode\": {\n      \"type\": \"integer\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\"success\", \"statusCode\", \"message\"]\n}\n\n ```"
+					},
+					"response": []
+				},
+				{
+					"name": "My Profile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/v1/user/me",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"me"
+							]
+						},
+						"description": "### API Request Description\n\nThis endpoint is used to retrieve the details of the currently authenticated user.\n\n#### Request Body\n\nThis request does not require a request body.\n\n#### Response Body\n\nThe response will be in JSON format with the following schema:\n\n``` json\n{\n    \"success\": boolean,\n    \"statusCode\": integer,\n    \"data\": {\n        \"_id\": string,\n        \"name\": string,\n        \"email\": string,\n        \"role\": string,\n        \"createdAt\": string,\n        \"updatedAt\": string,\n        \"__v\": integer\n    }\n}\n\n ```\n\nThe `success` field indicates whether the request was successful. The `statusCode` provides additional information about the status of the request. The `data` object contains details about the user, including their ID, name, email, role, creation and update timestamps, and a version field."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "Book",
+					"item": [
+						{
+							"name": "Update Single Book",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"title\": \"harry potter and the philosopher's stone\"\r\n//   \"author\": \"J.K. Rowling\",\r\n//   \"publication_date\": \"1997-06-26\",\r\n//   \"genre\": \"Fantasy\"\r\n//   \"copies\": 10\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/v1/book/66503bc8e01232140a7c9a3b",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"v1",
+										"book",
+										"66503bc8e01232140a7c9a3b"
+									]
+								},
+								"description": "\n### PUT /api/v1/book/66503bc8e01232140a7c9a3b\n\nThis endpoint updates details of a specific book based on the provided book ID.\n\n#### Request\n\nThe request body should be in JSON format and include the following parameters:\n\n- `title` (string, required): The updated title of the book.\n\n#### Response\n\nThe response will be in JSON format and will have the following schema:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"success\": {\n      \"type\": \"boolean\"\n    },\n    \"statusCode\": {\n      \"type\": \"integer\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    },\n    \"stack\": {\n      \"type\": \"string\"\n    }\n  }\n}\n"
+							},
+							"response": []
+						},
+						{
+							"name": "Add New Book",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\": \"the shinning\",\r\n    \"author\": \"Stephen King\",\r\n    \"publication_date\": \"1977-01-28\",\r\n    \"genre\": \"Horror\",\r\n    \"copies\": 11\r\n  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/v1/book/admin/add",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"v1",
+										"book",
+										"admin",
+										"add"
+									]
+								},
+								"description": "### Add Book for Admin\n\nThis endpoint allows an admin to add a new book to the system.\n\n#### Request Body\n\n- `title` (string, required): The title of the book.\n    \n- `author` (string, required): The author of the book.\n    \n- `publication_date` (string, required): The publication date of the book.\n    \n- `genre` (string, required): The genre of the book.\n    \n- `copies` (number, required): The number of copies of the book.\n    \n\n#### Response\n\nThe response is a JSON object with the following schema:\n\n``` json\n{\n  \"success\": boolean,\n  \"statusCode\": number,\n  \"message\": string,\n  \"data\": {\n    \"title\": string,\n    \"author\": string,\n    \"isbn\": string,\n    \"publication_date\": string,\n    \"genre\": string,\n    \"copies\": number,\n    \"_id\": string,\n    \"createdAt\": string,\n    \"updatedAt\": string,\n    \"__v\": number\n  }\n}\n\n ```\n\n- `success` (boolean): Indicates if the request was successful.\n    \n- `statusCode` (number): The status code of the response.\n    \n- `message` (string): Any additional message related to the response.\n    \n- `data` (object): The details of the added book including its unique identifier, creation and update timestamps."
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Single Book",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8000/api/v1/book/66503bc8e01232140a7c9a3b",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"v1",
+										"book",
+										"66503bc8e01232140a7c9a3b"
+									]
+								},
+								"description": "The API endpoint sends an HTTP DELETE request to [http://localhost:8000/api/v1/book/66503bc8e01232140a7c9a3b](http://localhost:8000/api/v1/book/66503bc8e01232140a7c9a3b) to delete a specific book. Upon successful execution, the response will be in JSON format with the following schema:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"success\": {\n      \"type\": \"boolean\"\n    },\n    \"statusCode\": {\n      \"type\": \"integer\"\n    },\n    \"message\": {\n      \"type\": \"string\"\n    }\n  }\n}\n\n ```\n\nThis schema indicates that the response will contain a boolean value for \"success\", an integer value for \"statusCode\", and a string value for \"message\"."
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Book",
+			"item": [
+				{
+					"name": "Get Single Book",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/v1/book/66503bc8e01232140a7c9a3b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"book",
+								"66503bc8e01232140a7c9a3b"
+							]
+						},
+						"description": "### GET /api/v1/book/66503bc8e01232140a7c9a3b\n\nThis endpoint retrieves details of a specific book based on the provided book ID.\n\n#### Request\n\nThere are no request parameters for this endpoint.\n\n#### Response\n\nThe response will be in JSON format and will have the following schema:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"success\": {\n      \"type\": \"boolean\"\n    },\n    \"statusCode\": {\n      \"type\": \"integer\"\n    },\n    \"data\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"_id\": {\n          \"type\": \"string\"\n        },\n        \"title\": {\n          \"type\": \"string\"\n        },\n        \"author\": {\n          \"type\": \"string\"\n        },\n        \"isbn\": {\n          \"type\": \"string\"\n        },\n        \"publication_date\": {\n          \"type\": \"string\"\n        },\n        \"genre\": {\n          \"type\": \"string\"\n        },\n        \"copies\": {\n          \"type\": \"integer\"\n        },\n        \"createdAt\": {\n          \"type\": \"string\"\n        },\n        \"updatedAt\": {\n          \"type\": \"string\"\n        },\n        \"__v\": {\n          \"type\": \"integer\"\n        }\n      }\n    }\n  }\n}\n\n ```"
+					},
+					"response": []
+				},
+				{
+					"name": "Books List with Query & Pagination",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/v1/book/list/get-all-books?limit=5&page=1&author=Antoine",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"book",
+								"list",
+								"get-all-books"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "5",
+									"description": "default limit is 10"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"description": "default page is 1"
+								},
+								{
+									"key": "author",
+									"value": "Antoine",
+									"description": "default is empty"
+								},
+								{
+									"key": "genre",
+									"value": "Fiction",
+									"description": "default is empty",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Borrow",
+			"item": [
+				{
+					"name": "Add New Borrow",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"bookId\" :\"665057f4f3104c9315f21af7\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/v1/borrow/new-borrow/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"borrow",
+								"new-borrow",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Return Borrow Book",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/v1/borrow/return-borrow/66508cec3c627daefda62e55",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"borrow",
+								"return-borrow",
+								"66508cec3c627daefda62e55"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "My Borrowing History ",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/v1/borrow/my-borrow-history",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"borrow",
+								"my-borrow-history"
+							]
+						},
+						"description": "The endpoint `http://localhost:8000/api/v1/borrow/my-borrow-history` is a GET request that retrieves the borrow history for the current user.\n\n### Response\n\nThe response is a JSON object with the following schema:\n\n``` json\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"success\": {\n      \"type\": \"boolean\"\n    },\n    \"statusCode\": {\n      \"type\": \"integer\"\n    },\n    \"data\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"_id\": {\n            \"type\": \"string\"\n          },\n          \"user\": {\n            \"type\": \"string\"\n          },\n          \"book\": {\n            \"type\": \"string\"\n          },\n          \"borrowedOn\": {\n            \"type\": \"string\"\n          },\n          \"isReturn\": {\n            \"type\": \"boolean\"\n          },\n          \"createdAt\": {\n            \"type\": \"string\"\n          },\n          \"updatedAt\": {\n            \"type\": \"string\"\n          },\n          \"__v\": {\n            \"type\": \"integer\"\n          }\n        }\n      }\n    },\n    \"DataLength\": {\n      \"type\": \"integer\"\n    }\n  }\n}\n\n ```"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Report",
+			"item": [
+				{
+					"name": "Most Borrowed Books",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/v1/report/most-borrowed-books",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"most-borrowed-books"
+							]
+						},
+						"description": "# Get Most Borrowed Books Report\n\nThis endpoint makes an HTTP GET request to retrieve a report of the most borrowed books.\n\n### Request Body\n\nThis request does not require a request body.\n\n### Response\n\n- Status: 200\n    \n- Content-Type: application/json\n    \n\n#### Success Response\n\n``` json\n{\n    \"success\": true,\n    \"statusCode\": 0,\n    \"message\": \"\",\n    \"data\": [\n        {\n            \"count\": 0,\n            \"bookTitle\": \"\"\n        }\n    ]\n}\n\n ```\n\nThe response contains a success status, status code, and a data array with the count and title of the most borrowed books."
+					},
+					"response": []
+				},
+				{
+					"name": "Most Active Members",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/v1/report/most-active-members?topmembers=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"most-active-members"
+							],
+							"query": [
+								{
+									"key": "topmembers",
+									"value": "5",
+									"description": "default top 10 members will get"
+								}
+							]
+						},
+						"description": "The API endpoint retrieves a list of the most active members based on the specified criteria.\n\nThe response of the request can be documented as a JSON schema:\n\n``` json\n{\n    \"type\": \"object\",\n    \"properties\": {\n        \"success\": {\n            \"type\": \"boolean\"\n        },\n        \"statusCode\": {\n            \"type\": \"integer\"\n        },\n        \"message\": {\n            \"type\": \"string\"\n        },\n        \"data\": {\n            \"type\": \"array\",\n            \"items\": {\n                \"type\": \"object\",\n                \"properties\": {\n                    \"count\": {\n                        \"type\": \"integer\"\n                    },\n                    \"MemberName\": {\n                        \"type\": \"string\"\n                    }\n                }\n            }\n        }\n    }\n}\n\n ```"
+					},
+					"response": []
+				},
+				{
+					"name": "Book Availability",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/v1/report/book-availability",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"book-availability"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GraphQl",
+			"item": [
+				{
+					"name": "Query",
+					"item": [
+						{
+							"name": "Hello Test",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "graphql",
+									"graphql": {
+										"query": "query Query {hello }",
+										"variables": ""
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/gqlserver",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"gqlserver"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Single User",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "graphql",
+									"graphql": {
+										"query": "query Query { getSingleUser(id:\"664f572986c102d352e18dc6\") { message statusCode success data { _id name email role } } }",
+										"variables": ""
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/gqlserver",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"gqlserver"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get All Users",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "graphql",
+									"graphql": {
+										"query": "query Query {GetAllUsers { message statusCode success data { _id email name password role } } }",
+										"variables": ""
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/gqlserver",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"gqlserver"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Single Book",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "graphql",
+									"graphql": {
+										"query": "query Query { singleBook(id:\"66503afed59b53ceb5e70904\") { message statusCode success data { _id author isbn publication_date title copies genre createdAt } } }",
+										"variables": ""
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/gqlserver",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"gqlserver"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get All Books",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "graphql",
+									"graphql": {
+										"query": "query Query { getBooksList(limit: 2, page: 1, genre: \"Fiction\") { TotalDocuments activePage dataLength statusCode success data { _id author title copies genre } } }\r\n",
+										"variables": ""
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/gqlserver",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"gqlserver"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Mutation",
+					"item": [
+						{
+							"name": "Add New Book",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "graphql",
+									"graphql": {
+										"query": "mutation Mutation { addNewBook( title: \"Testing With GQL\" author: \"Stephen King3\" publication_date: \"1974-01-28\" genre: \"Horror\" copies: 5 ) { data { _id title author copies genre isbn publication_date createdAt updatedAt } message statusCode success } }\r\n",
+										"variables": ""
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/gqlserver",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"gqlserver"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add New User",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "graphql",
+									"graphql": {
+										"query": "mutation Mutation { addNewUser(name: \"Test12\", email: \"Test12@gmail.com\" password: \"Test@123\") { message statusCode success data { _id email name role } } }",
+										"variables": ""
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8000/gqlserver",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"gqlserver"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
