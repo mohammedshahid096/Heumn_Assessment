@@ -1,32 +1,28 @@
 const express = require("express");
 const {
-  CreateUserController,
+  RegisterUserController,
   LoginUserController,
   LogoutUserController,
-  GenerateAccessTokenController,
   MyAccountController,
-  UpdatePasswordController,
+  UpdateAccessTokenController,
+  UpdateUserRoleController,
 } = require("../Controllers/user.controller");
-const { Authentication, Authorization } = require("../Middlewares/Auth");
+const {
+  Authorization,
+  Authentication,
+} = require("../Middlewares/auth.middleware");
+
 const UserRoutes = express.Router();
 
-// ### Register related routes
-UserRoutes.route("/register").post(CreateUserController);
-
-// ### Login related routes
+UserRoutes.route("/register").post(RegisterUserController);
 UserRoutes.route("/login").post(LoginUserController);
-UserRoutes.route("/logout").get(Authentication, LogoutUserController);
-
-// ### Refresh Access Token
-UserRoutes.route("/get_access_token").get(GenerateAccessTokenController);
-
-// ### user info
-UserRoutes.route("/me").get(Authentication, MyAccountController);
-
-UserRoutes.route("/me/update-password").put(
+UserRoutes.route("/logout").get(LogoutUserController);
+UserRoutes.route("/my-profile").get(Authentication, MyAccountController);
+UserRoutes.route("/new-access-token").get(UpdateAccessTokenController);
+UserRoutes.route("/update-role/:userid").patch(
   Authentication,
-  Authorization("user", "admin"),
-  UpdatePasswordController
+  Authorization("admin"),
+  UpdateUserRoleController
 );
 
 module.exports = UserRoutes;

@@ -1,0 +1,591 @@
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T07:03:24.952Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T07:03:24.964Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T07:03:25.434Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T07:17:14.184Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T07:17:14.196Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T07:17:14.678Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T07:23:06.798Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T07:23:06.811Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T07:23:07.353Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T07:25:07.192Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T07:25:07.204Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T07:25:07.682Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T07:25:14.406Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T07:25:14.418Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T07:25:14.821Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T07:29:03.184Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T07:29:03.196Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T07:29:03.679Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-26T07:29:25.962Z"}
+{"level":"info","message":"Controllers - User - UpdateAccessToken - Start","timestamp":"2024-06-26T07:29:31.235Z"}
+{"level":"info","message":"Controllers - User - Login - Start","timestamp":"2024-06-26T07:29:40.658Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T08:04:38.313Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T08:04:38.325Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T08:04:38.768Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T08:04:43.404Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T08:04:43.415Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T08:04:43.795Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T08:04:46.345Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T08:04:46.359Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T08:04:46.760Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T08:07:41.217Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T08:07:41.229Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T08:07:41.654Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T08:07:52.813Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T08:07:52.824Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T08:07:53.219Z"}
+{"level":"info","message":"Controllers - User - UpdateAccessToken - Start","timestamp":"2024-06-26T08:07:56.423Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-26T08:08:08.491Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-26T08:08:08.524Z"}
+{"level":"info","message":"Graphql - Resolvers - Task - Mutation - Addnewtask - Start","timestamp":"2024-06-26T08:08:08.534Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T08:12:29.311Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T08:12:29.323Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T08:12:29.720Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-26T08:12:32.155Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-26T08:12:32.188Z"}
+{"level":"info","message":"Graphql - Resolvers - Task - Mutation - Addnewtask - Start","timestamp":"2024-06-26T08:12:32.197Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T08:12:59.125Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T08:12:59.136Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T08:12:59.518Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T08:13:10.020Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T08:13:10.031Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T08:13:10.475Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-26T08:13:11.808Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-26T08:13:11.845Z"}
+{"level":"info","message":"Graphql - Resolvers - Task - Mutation - Addnewtask - Start","timestamp":"2024-06-26T08:13:11.854Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T08:13:27.976Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T08:13:27.987Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T08:13:28.361Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T08:14:34.649Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T08:14:34.660Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T08:14:35.122Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T09:30:39.183Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T09:30:39.195Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T09:30:39.642Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T10:11:37.076Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T10:11:37.087Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T10:11:37.544Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T11:47:36.198Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T11:47:36.209Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T11:47:38.659Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T11:47:45.321Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T11:47:45.333Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T11:47:45.877Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T11:48:13.152Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T11:48:13.163Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T11:48:13.634Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T11:48:27.821Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T11:48:27.832Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T11:48:28.227Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T11:49:41.179Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T11:49:41.190Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T11:49:41.784Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T11:50:02.916Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T11:50:02.927Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T11:50:03.363Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T11:51:14.152Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T11:51:14.164Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T11:51:14.623Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T11:54:28.844Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T11:54:28.856Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T11:54:29.623Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T11:58:41.089Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T11:58:41.100Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T11:58:41.811Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T12:00:34.182Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T12:00:34.193Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T12:00:34.902Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T12:01:02.077Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T12:01:02.088Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T12:01:02.815Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-26T12:02:14.124Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-26T12:02:14.136Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-26T12:02:14.535Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T04:41:24.824Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T04:41:24.836Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T04:41:25.262Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T05:28:41.516Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T05:28:41.528Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T05:28:42.023Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T05:30:15.787Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T05:30:15.799Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T05:30:16.362Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:22:32.007Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:22:32.019Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:22:32.562Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:22:47.847Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:22:47.858Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:22:48.323Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:28:03.399Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:28:03.411Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:28:03.875Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:29:24.489Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:29:24.501Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:29:24.928Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:29:45.879Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:29:45.891Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:29:46.305Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:30:13.079Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:30:13.090Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:30:13.470Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:30:29.924Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:30:29.936Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:30:30.384Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:31:13.883Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:31:13.894Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:31:15.351Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:31:50.423Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:31:50.434Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:31:50.812Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:32:36.909Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:32:36.921Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:32:37.357Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:33:57.779Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:33:57.791Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:33:58.322Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:34:12.148Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:34:12.160Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:34:12.585Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:34:39.316Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:34:39.327Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:34:40.008Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:35:07.251Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:35:07.262Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:35:07.657Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:35:23.204Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:35:23.216Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:35:23.618Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:36:55.035Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:36:55.048Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:36:57.636Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:37:27.892Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:37:27.904Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:37:30.338Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:38:11.426Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:38:11.438Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:38:11.885Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:38:38.916Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:38:38.928Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:38:39.331Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:39:45.018Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:39:45.029Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:39:45.463Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:43:05.632Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:43:05.644Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:43:06.048Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:43:13.521Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:43:13.533Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:43:13.912Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:44:12.003Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:44:12.014Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:44:12.373Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:45:58.618Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:45:58.630Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:45:59.376Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:46:11.193Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:46:11.208Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:46:11.614Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:47:00.890Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:47:00.902Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:47:01.654Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:48:04.572Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:48:04.584Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:48:04.997Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:50:48.276Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:50:48.288Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:50:48.715Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:52:18.810Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:52:18.821Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:52:19.286Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:56:43.171Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:56:43.183Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:56:43.662Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:58:12.415Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:58:12.427Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:58:12.840Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:59:24.805Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:59:24.816Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:59:25.219Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T06:59:45.824Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T06:59:45.835Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T06:59:46.291Z"}
+{"level":"info","message":"Controllers - User - Login - Start","timestamp":"2024-06-27T07:00:01.785Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T07:00:20.325Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T07:00:20.352Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:05:14.501Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:05:14.513Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:05:14.986Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:06:43.339Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:06:43.350Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:06:43.750Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T07:06:52.932Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T07:06:52.972Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:08:03.129Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:08:03.141Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:08:03.649Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T07:08:07.259Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T07:08:07.305Z"}
+{"level":"info","message":"Graphql - Resolvers - Task - Mutation - Addnewtask - Start","timestamp":"2024-06-27T07:08:07.307Z"}
+{"error":"moment is not defined","level":"info","message":"Graphql - Resolvers - Task - Mutation - Addnewtask - Error","timestamp":"2024-06-27T07:08:07.307Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:08:33.459Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:08:33.470Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:08:33.886Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T07:08:38.102Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T07:08:38.146Z"}
+{"level":"info","message":"Graphql - Resolvers - Task - Mutation - Addnewtask - Start","timestamp":"2024-06-27T07:08:38.148Z"}
+{"error":"details is not defined","level":"info","message":"Graphql - Resolvers - Task - Mutation - Addnewtask - Error","timestamp":"2024-06-27T07:08:38.151Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:08:55.563Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:08:55.575Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:08:56.039Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T07:09:00.256Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T07:09:00.597Z"}
+{"level":"info","message":"Graphql - Resolvers - Task - Mutation - Addnewtask - Start","timestamp":"2024-06-27T07:09:00.600Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:11:44.452Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:11:44.464Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:11:44.875Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:17:11.148Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:17:11.159Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:17:11.598Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:18:52.762Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:18:52.774Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:18:53.207Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:19:17.754Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:19:17.766Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:19:18.154Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:24:03.615Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:24:03.627Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:24:04.099Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:25:41.666Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:25:41.678Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:25:42.105Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:27:54.270Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:27:54.284Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:27:54.761Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:29:40.467Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:29:40.478Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:29:40.944Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:39:35.900Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:39:35.912Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:39:36.355Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:39:57.042Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:39:57.054Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:39:57.435Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:40:07.479Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:40:07.490Z"}
+{"error":{"code":"EREFUSED","hostname":"_mongodb._tcp.veai.butud2o.mongodb.net","syscall":"querySrv"},"level":"error","message":"querySrv EREFUSED _mongodb._tcp.veai.butud2o.mongodb.net","timestamp":"2024-06-27T07:40:07.513Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:41:22.643Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:41:22.655Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:41:23.295Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:41:45.379Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:41:45.390Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:41:45.845Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:41:59.236Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:41:59.248Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:41:59.660Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:46:19.165Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:46:19.176Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:46:19.573Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:47:26.351Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:47:26.363Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:47:26.742Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:51:52.676Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:51:52.688Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:51:53.182Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:51:57.505Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:51:57.516Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:51:57.906Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:53:14.340Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:53:14.352Z"}
+{"error":{"code":"EREFUSED","hostname":"veai.butud2o.mongodb.net","syscall":"queryTxt"},"level":"error","message":"queryTxt EREFUSED veai.butud2o.mongodb.net","timestamp":"2024-06-27T07:53:14.433Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T07:55:05.119Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T07:55:05.130Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T07:55:05.674Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T08:04:39.953Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T08:04:39.964Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T08:04:40.392Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T08:06:38.251Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T08:06:38.263Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T08:06:38.686Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T08:13:44.782Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T08:13:44.793Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T08:13:45.193Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T08:16:35.249Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T08:16:35.261Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T08:16:35.820Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:01:39.902Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:01:39.969Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:01:40.434Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:09:48.353Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:09:48.365Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:09:48.867Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:13:33.089Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:13:33.101Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:13:33.930Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:13:47.479Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:13:47.491Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:13:48.100Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:15:01.694Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:15:01.705Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:15:02.423Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:26:45.392Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:26:45.403Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:26:45.945Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:33:23.668Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:33:23.680Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:33:24.302Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:33:57.567Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:33:57.579Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:33:57.972Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:37:14.877Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:37:14.888Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:37:15.453Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:39:20.463Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:39:20.474Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:39:20.934Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:49:32.417Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:49:32.428Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:49:32.958Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:55:07.215Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:55:07.226Z"}
+{"error":{"code":"EREFUSED","hostname":"_mongodb._tcp.veai.butud2o.mongodb.net","syscall":"querySrv"},"level":"error","message":"querySrv EREFUSED _mongodb._tcp.veai.butud2o.mongodb.net","timestamp":"2024-06-27T10:55:07.250Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:55:11.654Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:55:11.666Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:55:12.078Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T10:59:46.199Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T10:59:46.211Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T10:59:46.661Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:03:15.059Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:03:15.071Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:03:15.607Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:05:24.928Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:05:24.939Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:05:25.458Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:05:47.912Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:05:47.923Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:05:48.361Z"}
+{"level":"info","message":"Controllers - User - UpdateAccessToken - Start","timestamp":"2024-06-27T11:10:08.998Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:11:58.898Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:11:58.924Z"}
+{"level":"info","message":"Controller - Task - AddTaskController - Start","timestamp":"2024-06-27T11:11:58.927Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:15:04.988Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:15:05.018Z"}
+{"level":"info","message":"Controller - Task - UpdateTaskController - Start","timestamp":"2024-06-27T11:15:05.020Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:17:04.061Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:17:04.086Z"}
+{"level":"info","message":"Controller - Dependency - AddDependencyController - Start","timestamp":"2024-06-27T11:17:04.088Z"}
+{"error":"CreateNewDependencyService is not defined","level":"info","message":"Controller - Dependency - AddDependencyController - Error","timestamp":"2024-06-27T11:17:04.111Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:18:15.889Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:18:15.901Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:18:16.406Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:18:20.603Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:18:20.642Z"}
+{"level":"info","message":"Controller - Dependency - AddDependencyController - Start","timestamp":"2024-06-27T11:18:20.651Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:18:25.329Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:18:25.361Z"}
+{"level":"info","message":"Controller - Dependency - AddDependencyController - Start","timestamp":"2024-06-27T11:18:25.362Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:20:10.448Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:20:10.470Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:20:10.896Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:25:10.826Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:25:10.859Z"}
+{"level":"info","message":"Controller - Assign - AddAssignTaskController - Start","timestamp":"2024-06-27T11:25:10.862Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:27:21.930Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:27:21.958Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T11:27:21.960Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:30:30.406Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:30:30.417Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:30:31.379Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:30:32.535Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:30:32.588Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T11:30:32.598Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:32:07.939Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:32:07.950Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:32:08.347Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:32:16.902Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:32:16.938Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T11:32:16.950Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:32:57.127Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:32:57.155Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T11:32:57.159Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:33:29.731Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:33:29.758Z"}
+{"level":"info","message":"Controller - Task - AddTaskController - Start","timestamp":"2024-06-27T11:33:29.761Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:33:33.829Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:33:33.855Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T11:33:33.856Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:33:45.919Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:33:45.946Z"}
+{"level":"info","message":"Controller - Task - AddTaskController - Start","timestamp":"2024-06-27T11:33:45.949Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T11:33:54.042Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T11:33:54.069Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T11:33:54.070Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:46:38.386Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:46:38.398Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:46:38.887Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:46:40.970Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:46:40.982Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:46:41.654Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:47:17.951Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:47:17.963Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:47:18.374Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:47:47.033Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:47:47.045Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:47:47.424Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:48:39.730Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:48:39.742Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:48:40.167Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T11:52:46.639Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T11:52:46.651Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T11:52:47.039Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:07:31.764Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:07:31.776Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:07:32.293Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:07:47.236Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:07:47.248Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:07:47.638Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:08:30.740Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:08:30.752Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:08:31.146Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:10:13.877Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:10:13.889Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:10:14.455Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:11:18.686Z"}
+{"level":"info","message":"Controllers - User - UpdateAccessToken - Start","timestamp":"2024-06-27T12:11:24.966Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:11:31.723Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:11:31.749Z"}
+{"level":"info","message":"Controller - Assign - AddAssignTaskController - Start","timestamp":"2024-06-27T12:11:31.758Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:13:46.604Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:13:46.632Z"}
+{"level":"info","message":"Controller - Assign - UpdateTaskStatusController - Start","timestamp":"2024-06-27T12:13:46.635Z"}
+{"level":"info","message":"Utils -  Dependency Check - Main - Start","timestamp":"2024-06-27T12:13:46.662Z"}
+{"level":"info","message":"Utils -  Dependency Check - GetUserStatus - Start","timestamp":"2024-06-27T12:13:46.691Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:17:33.280Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:17:33.292Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:17:33.834Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:17:57.113Z"}
+{"details":{"name":"Shahid","role":"admin","userid":"66756499a66ab43472f39c50"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:17:57.147Z"}
+{"level":"info","message":"Controller - Assign - UpdateTaskStatusController - Start","timestamp":"2024-06-27T12:17:57.158Z"}
+{"level":"info","message":"Utils -  Dependency Check - Main - Start","timestamp":"2024-06-27T12:17:57.182Z"}
+{"level":"info","message":"Utils -  Dependency Check - GetUserStatus - Start","timestamp":"2024-06-27T12:17:57.206Z"}
+{"level":"info","message":"Controllers - User - Login - Start","timestamp":"2024-06-27T12:18:32.407Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:18:48.636Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:18:48.661Z"}
+{"level":"info","message":"Controller - Assign - UpdateTaskStatusController - Start","timestamp":"2024-06-27T12:18:48.663Z"}
+{"level":"info","message":"Utils -  Dependency Check - Main - Start","timestamp":"2024-06-27T12:18:48.689Z"}
+{"level":"info","message":"Utils -  Dependency Check - GetUserStatus - Start","timestamp":"2024-06-27T12:18:48.712Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:19:40.206Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:19:40.235Z"}
+{"level":"info","message":"Controller - Assign - UpdateTaskStatusController - Start","timestamp":"2024-06-27T12:19:40.237Z"}
+{"level":"info","message":"Utils -  Dependency Check - Main - Start","timestamp":"2024-06-27T12:19:40.261Z"}
+{"level":"info","message":"Utils -  Dependency Check - GetUserStatus - Start","timestamp":"2024-06-27T12:19:40.284Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:20:22.608Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:20:22.620Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:20:23.075Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:30:44.478Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:30:44.490Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:30:44.988Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:30:59.027Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:30:59.061Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:30:59.072Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:31:24.853Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:31:24.864Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:31:25.283Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:31:25.445Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:31:25.477Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:31:25.487Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:31:45.513Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:31:45.526Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:31:46.015Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:31:46.300Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:31:46.337Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:32:41.362Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:32:41.375Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:32:41.832Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:39:41.854Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:39:41.866Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:39:42.311Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:40:51.962Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:40:51.998Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:40:52.009Z"}
+{"level":"info","message":"Controllers - User - Login - Start","timestamp":"2024-06-27T12:41:10.545Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:41:22.197Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:41:22.224Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:41:22.225Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:48:13.205Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:48:13.217Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:48:13.684Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:48:15.661Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:48:15.694Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:48:15.703Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:49:28.673Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:49:28.684Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:49:29.079Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:49:31.683Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:49:31.715Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:49:31.725Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:50:22.757Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:50:22.782Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:50:22.784Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:50:50.355Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:50:50.367Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:50:50.782Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:50:51.720Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:50:51.754Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:50:51.764Z"}
+{"error":"getSubTaskIds.toObject is not a function","level":"info","message":"Controller - Assign - GetSingleTaskDetail - Error","timestamp":"2024-06-27T12:50:51.812Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:52:23.603Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:52:23.614Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:52:24.151Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:52:25.206Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:52:25.244Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:52:25.255Z"}
+{"error":"getSubTaskIds.toObject is not a function","level":"info","message":"Controller - Assign - GetSingleTaskDetail - Error","timestamp":"2024-06-27T12:52:25.316Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:53:39.438Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:53:39.450Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:53:39.898Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:53:40.611Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:53:40.646Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:53:40.656Z"}
+{"error":"getSubTaskIds.toObject is not a function","level":"info","message":"Controller - Assign - GetSingleTaskDetail - Error","timestamp":"2024-06-27T12:53:40.714Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:54:32.851Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:54:32.863Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:54:33.306Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:54:34.831Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:54:34.868Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:54:34.878Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:57:26.945Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:57:26.958Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:57:27.450Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:57:28.795Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:57:28.842Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:57:28.851Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:57:51.077Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:57:51.089Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:57:51.496Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:57:52.850Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:57:52.886Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:57:52.896Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T12:58:15.140Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T12:58:15.152Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T12:58:15.602Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T12:58:16.883Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T12:58:16.921Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T12:58:16.930Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T13:04:29.034Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T13:04:29.046Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T13:04:29.471Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T13:04:32.121Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T13:04:32.153Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T13:04:32.163Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T13:07:33.961Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T13:07:33.973Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T13:07:34.428Z"}
+{"level":"info","message":"Middleware - Authentication - Start ","timestamp":"2024-06-27T13:07:34.929Z"}
+{"details":{"name":"Shahid4 Memeber","role":"member","userid":"667564c1a66ab43472f39c59"},"level":"info","message":"Middleware - Authentication - End ","timestamp":"2024-06-27T13:07:34.966Z"}
+{"level":"info","message":"Controller - Assign - GetSingleTaskDetail - Start","timestamp":"2024-06-27T13:07:34.976Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T13:08:33.512Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T13:08:33.525Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T13:08:33.955Z"}
+{"level":"info","message":"config - mongodb - start","timestamp":"2024-06-27T13:08:47.304Z"}
+{"level":"info","message":"Graphql - Index - CreateServer - Start","timestamp":"2024-06-27T13:08:47.346Z"}
+{"level":"info","message":"development database is connected","timestamp":"2024-06-27T13:08:47.777Z"}

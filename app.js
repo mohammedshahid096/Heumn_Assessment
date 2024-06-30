@@ -1,53 +1,59 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const cors = require("cors");
+const MongoDataBaseConn = require("./Config/db.config");
+const IndexRoutes = require("./Routes/Index.route");
 const cookieParser = require("cookie-parser");
-const MongoDataBaseConn = require("./Config/mongodb.config");
-const IndexRoutes = require("./Routes/index.routes");
-const { ApolloServer } = require("@apollo/server");
+const {
+  CreateAppoloGraphqlServerFunction,
+  GqlServer,
+} = require("./Graphql/index.grahphql");
 const { expressMiddleware } = require("@apollo/server/express4");
-const typeDefs = require("./GraphQl/typeDefs");
-const resolvers = require("./GraphQl/resolvers");
-const overviewController = require("./Controllers/overview.controller");
+const { Authentication } = require("./Middlewares/auth.middleware");
+const { rateLimit } = require("express-rate-limit");
 
-async function init() {
+async function __init__() {
   const app = express();
-
-  // env config
+  //   env load
   dotenv.config();
 
-  // connecting to db
+  //   mongodb connection
   MongoDataBaseConn();
+  await CreateAppoloGraphqlServerFunction();
 
-  // using  parsing dependencies
+  const limiter = rateLimit({
+    windowMs: 10 * 60 * 1000, // 10 minutes
+    limit: 150,
+    standardHeaders: "draft-7",
+    legacyHeaders: false,
+  });
+
+  app.use(limiter);
+
+  //   all configs
   app.use(express.json());
   app.use(express.urlencoded({ extended: false }));
   app.use(cookieParser());
 
-  // cors config
-
-  app.use(
-    cors({
-      origin: JSON.parse(process.env.ALLOW_ORIGINS_ACCESS),
-      credentials: true,
-    })
-  );
-
-  // creating appologql server
-  const GqlServer = new ApolloServer({
-    typeDefs,
-    resolvers,
+  app.get("/", (req, res) => {
+    res.status(200).json({
+      success: true,
+      message: "Welcome Message",
+    });
   });
 
-  // strating gqlserver
-  await GqlServer.start();
-
-  app.get("/", overviewController);
-
-  app.use("/gqlserver", expressMiddleware(GqlServer));
-
-  // indexroute
-  app.use("/api/v1/", IndexRoutes);
+  app.use("/api/v1", IndexRoutes);
+  app.use(
+    "/gqlserver",
+    Authentication,
+    expressMiddleware(GqlServer, {
+      context: ({ req }) => ({
+        userid: req.userid,
+        name: req.name,
+        role: req.role,
+      }),
+    })
+  );
+  app.use("/testgql", expressMiddleware(GqlServer));
 
   // if no routes findout
   app.use("*", (req, res) => {
@@ -70,13 +76,11 @@ async function init() {
     });
   });
 
-  // server listening
-  app.listen(process.env.PORT || 8001, () => {
-    console.log(`MODE : ${process.env.DEVELOPMENT_MODE}`);
-    console.log(
-      "server is running on:  http://localhost:" + process.env.PORT || 8001
-    );
+  //   server  is listening
+  const port = process.env.PORT || 8000;
+  app.listen(port, () => {
+    console.log("servser is connected on http://localhost:" + port);
   });
 }
 
-init();
+__init__();
